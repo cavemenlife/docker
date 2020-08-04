@@ -84,4 +84,4 @@ COPY wait-for-psql.py /usr/local/bin/wait-for-psql.py
 USER odoo
 
 ENTRYPOINT ["/entrypoint.sh"]
-CMD ["odoo -i base"]
+CMD ["odoo", "-i", "base"]
